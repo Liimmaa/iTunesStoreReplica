@@ -1,0 +1,10 @@
+workflows:
+  iTunesStoreReplica-workflow:
+    name: iTunes Store Replica
+    scripts:
+      - name: CICD Started
+        script: echo "Welcome to your CICD set up"
+    publishing:
+      email:
+        recipients: 
+          - halimammegwa@gmail.com
