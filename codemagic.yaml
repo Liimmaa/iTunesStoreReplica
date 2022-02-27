@@ -4,7 +4,7 @@ workflows:
     scripts:
       - name: CICD Started
         script: echo "Welcome to your CICD set up"
-      - name: Build iTunes Store Replica
+      - name: Build iTunesStoreReplica
         script: xcodebuild build -xcodeproj "iTunesStoreReplica.xcodeproj" -scheme "iTunesStoreReplica" CODE_SIGN_INDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
     publishing:
       email:
